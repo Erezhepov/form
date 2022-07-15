@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="style.css" />
+	<title>Отдых</title>
+</head>
+
+<body>
+	<div class="container">
+		<div>
+			<input type="text" id="name-input" placeholder="Напишите ваше имя" required />
+			<p></p>
+		</div>
+		<div>
+			<input type="number" id="sleep-input" placeholder="Напишите сколько часов вы спите" required />
+			<p class="sleep-error error"></p>
+		</div>
+		<div>
+			<input type="number" id="lesson-input" placeholder="Напишите сколько часов учитесь" required />
+			<p class="lesson-error error"></p>
+		</div>
+		<div>
+			<input type="number" id="exercise-input"
+				placeholder="Напишите сколько часов готовитесь к лекциям и заданиям" required />
+			<p class="exercise-error error"></p>
+		</div>
+		<div>
+			<input type="number" id="media-input" placeholder="Сколько часов сидите в соц сетях" required />
+			<p class="media-error error"></p>
+		</div>
+		<div class="button-wrapper">
+			<button id="btn">рассчитать</button>
+		</div>
+		<div>
+			<h2></h2>
+		</div>
+	</div>
+</body>
+<script src="main.js"></script>
+
+</html>
